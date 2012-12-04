@@ -563,9 +563,9 @@ public class MainGUI extends JFrame {
 		checkBoxArray[44] = new JCheckBox("Roberts Fellows");
 		checkBoxArray[45] = new JCheckBox("Honors");
 		checkBoxArray[46] = new JCheckBox("SRCI");
-		//checkBoxArray[47] = new JCheckBox("MSGC");
+		checkBoxArray[47] = new JCheckBox("MSGC");
 		
-		for(int i = 0; i < 3; i++) {
+		for(int i = 0; i < 4; i++) {
 			textFieldArray[i+38].setBounds(75, 7+30*i, 210, 25);
 			panel_8.add(textFieldArray[i+38]);
 			labelArray[i+49].setBounds(10, 10+30*i, 120, 16);
@@ -957,6 +957,8 @@ public class MainGUI extends JFrame {
 
 		}
 		controller.searchStudents(textFieldArray[36].getText(), textFieldArray[35].getText(), textFieldArray[37].getText(),
+								  textFieldArray[38].getText(), textFieldArray[39].getText(), textFieldArray[40].getText(),
+								  textFieldArray[41].getText(),
 								  checkBoxArray[44].isSelected(), checkBoxArray[45].isSelected(), checkBoxArray[46].isSelected());
 	}
 }
