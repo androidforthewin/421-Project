@@ -14113,3 +14113,517 @@
 19:57:05,432 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.ProgramOfDistinction" is already enhanced.
 19:57:05,433 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.ProgramOfDistinction" completed
 19:57:05,468 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 12 classes. Timings : input=1745 ms, enhance=70 ms, total=1815 ms. Consult the log for full details
+20:26:45,186 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+20:26:45,225 (main) DEBUG [DataNucleus.General] - Plugin Registry "org.datanucleus.plugin.EclipsePluginRegistry" not found. Falling back to DataNucleus registry. Reason : Class "org.eclipse.core.runtime.RegistryFactory" was not found in the CLASSPATH. Please check your specification and your CLASSPATH..
+20:26:45,227 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+20:26:45,276 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 3.2.0.m1 at URL file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar.
+20:26:45,376 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar!/plugin.xml.
+20:26:45,476 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar!/plugin.xml.
+20:26:45,499 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 3.2.0.m1 at URL file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar.
+20:26:45,509 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar!/plugin.xml.
+20:26:45,513 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar!/plugin.xml.
+20:26:45,516 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 3.2.0.m1 at URL file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar.
+20:26:45,577 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar!/plugin.xml.
+20:26:45,617 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar!/plugin.xml.
+20:26:45,652 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+20:26:45,658 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+20:26:45,658 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+20:26:45,750 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+20:26:45,751 (main) DEBUG [DataNucleus.Persistence] - Java type boolean (DFG=true, embedded=true)
+20:26:45,752 (main) DEBUG [DataNucleus.Persistence] - Java type byte (DFG=true, embedded=true)
+20:26:45,752 (main) DEBUG [DataNucleus.Persistence] - Java type char (DFG=true, embedded=true)
+20:26:45,752 (main) DEBUG [DataNucleus.Persistence] - Java type double (DFG=true, embedded=true)
+20:26:45,753 (main) DEBUG [DataNucleus.Persistence] - Java type float (DFG=true, embedded=true)
+20:26:45,753 (main) DEBUG [DataNucleus.Persistence] - Java type int (DFG=true, embedded=true)
+20:26:45,753 (main) DEBUG [DataNucleus.Persistence] - Java type long (DFG=true, embedded=true)
+20:26:45,753 (main) DEBUG [DataNucleus.Persistence] - Java type short (DFG=true, embedded=true)
+20:26:45,754 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Boolean (DFG=true, embedded=true)
+20:26:45,754 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Byte (DFG=true, embedded=true)
+20:26:45,754 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Character (DFG=true, embedded=true)
+20:26:45,754 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Double (DFG=true, embedded=true)
+20:26:45,755 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Float (DFG=true, embedded=true)
+20:26:45,755 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Integer (DFG=true, embedded=true)
+20:26:45,755 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Long (DFG=true, embedded=true)
+20:26:45,756 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Short (DFG=true, embedded=true)
+20:26:45,756 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Number (DFG=true, embedded=true)
+20:26:45,756 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.String (DFG=true, embedded=true)
+20:26:45,756 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Enum (DFG=true, embedded=true)
+20:26:45,757 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.StringBuffer (DFG=true, embedded=true)
+20:26:45,757 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Class (DFG=true, embedded=true)
+20:26:45,758 (main) DEBUG [DataNucleus.Persistence] - Java type java.awt.image.BufferedImage (DFG=false, embedded=true)
+20:26:45,759 (main) DEBUG [DataNucleus.Persistence] - Java type java.awt.Color (DFG=false, embedded=true)
+20:26:45,759 (main) DEBUG [DataNucleus.Persistence] - Java type java.math.BigDecimal (DFG=true, embedded=true)
+20:26:45,760 (main) DEBUG [DataNucleus.Persistence] - Java type java.math.BigInteger (DFG=true, embedded=true)
+20:26:45,760 (main) DEBUG [DataNucleus.Persistence] - Java type java.net.URL (DFG=true, embedded=true)
+20:26:45,760 (main) DEBUG [DataNucleus.Persistence] - Java type java.net.URI (DFG=true, embedded=true)
+20:26:45,762 (main) DEBUG [DataNucleus.Persistence] - Java type java.sql.Date (DFG=true, embedded=true)
+20:26:45,763 (main) DEBUG [DataNucleus.Persistence] - Java type java.sql.Time (DFG=true, embedded=true)
+20:26:45,763 (main) DEBUG [DataNucleus.Persistence] - Java type java.sql.Timestamp (DFG=true, embedded=true)
+20:26:45,765 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Date (DFG=true, embedded=true)
+20:26:45,766 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Locale (DFG=true, embedded=true)
+20:26:45,767 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Currency (DFG=true, embedded=true)
+20:26:45,768 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Calendar (DFG=true, embedded=true)
+20:26:45,768 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.GregorianCalendar (DFG=true, embedded=true)
+20:26:45,769 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.UUID (DFG=true, embedded=true)
+20:26:45,769 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.TimeZone (DFG=true, embedded=true)
+20:26:45,773 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.ArrayList (DFG=false, embedded=false)
+20:26:45,774 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Arrays$ArrayList (DFG=false, embedded=false)
+20:26:45,775 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.BitSet (DFG=false, embedded=false)
+20:26:45,777 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Collection (DFG=false, embedded=false)
+20:26:45,780 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.HashMap (DFG=false, embedded=false)
+20:26:45,782 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.HashSet (DFG=false, embedded=false)
+20:26:45,785 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Hashtable (DFG=false, embedded=false)
+20:26:45,787 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.LinkedHashMap (DFG=false, embedded=false)
+20:26:45,789 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.LinkedHashSet (DFG=false, embedded=false)
+20:26:45,792 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.LinkedList (DFG=false, embedded=false)
+20:26:45,794 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.List (DFG=false, embedded=false)
+20:26:45,796 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Map (DFG=false, embedded=false)
+20:26:45,799 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.PriorityQueue (DFG=false, embedded=false)
+20:26:45,801 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Properties (DFG=false, embedded=false)
+20:26:45,803 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Queue (DFG=false, embedded=false)
+20:26:45,806 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Set (DFG=false, embedded=false)
+20:26:45,808 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.SortedSet (DFG=false, embedded=false)
+20:26:45,811 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.SortedMap (DFG=false, embedded=false)
+20:26:45,814 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Stack (DFG=false, embedded=false)
+20:26:45,816 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.TreeMap (DFG=false, embedded=false)
+20:26:45,819 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.TreeSet (DFG=false, embedded=false)
+20:26:45,822 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Vector (DFG=false, embedded=false)
+20:26:45,822 (main) DEBUG [DataNucleus.Persistence] - Java type [B (DFG=false, embedded=true)
+20:26:45,822 (main) DEBUG [DataNucleus.Persistence] - Java type [C (DFG=false, embedded=true)
+20:26:45,822 (main) DEBUG [DataNucleus.Persistence] - Java type [D (DFG=false, embedded=true)
+20:26:45,823 (main) DEBUG [DataNucleus.Persistence] - Java type [F (DFG=false, embedded=true)
+20:26:45,823 (main) DEBUG [DataNucleus.Persistence] - Java type [I (DFG=false, embedded=true)
+20:26:45,823 (main) DEBUG [DataNucleus.Persistence] - Java type [J (DFG=false, embedded=true)
+20:26:45,823 (main) DEBUG [DataNucleus.Persistence] - Java type [S (DFG=false, embedded=true)
+20:26:45,824 (main) DEBUG [DataNucleus.Persistence] - Java type [Z (DFG=false, embedded=true)
+20:26:45,824 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Boolean; (DFG=false, embedded=true)
+20:26:45,824 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Byte; (DFG=false, embedded=true)
+20:26:45,824 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Character; (DFG=false, embedded=true)
+20:26:45,825 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Double; (DFG=false, embedded=true)
+20:26:45,825 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Float; (DFG=false, embedded=true)
+20:26:45,825 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Integer; (DFG=false, embedded=true)
+20:26:45,825 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Long; (DFG=false, embedded=true)
+20:26:45,826 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Short; (DFG=false, embedded=true)
+20:26:45,826 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Number; (DFG=false, embedded=true)
+20:26:45,826 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.String; (DFG=false, embedded=true)
+20:26:45,827 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.math.BigInteger; (DFG=false, embedded=true)
+20:26:45,827 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.math.BigDecimal; (DFG=false, embedded=true)
+20:26:45,827 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.util.Date; (DFG=false, embedded=true)
+20:26:45,827 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.util.Locale; (DFG=false, embedded=true)
+20:26:45,828 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Enum; (DFG=false, embedded=true)
+20:26:45,828 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded
+20:26:45,828 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+20:26:45,830 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigDecimal<->java.lang.String using org.datanucleus.store.types.converters.BigDecimalStringConverter
+20:26:45,831 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigInteger<->java.lang.String using org.datanucleus.store.types.converters.BigIntegerStringConverter
+20:26:45,832 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.BitSet<->java.lang.String using org.datanucleus.store.types.converters.BitSetStringConverter
+20:26:45,834 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Calendar<->java.lang.String using org.datanucleus.store.types.converters.CalendarStringConverter
+20:26:45,836 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Class<->java.lang.String using org.datanucleus.store.types.converters.ClassStringConverter
+20:26:45,837 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.awt.Color<->java.lang.String using org.datanucleus.store.types.converters.ColorStringConverter
+20:26:45,838 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Currency<->java.lang.String using org.datanucleus.store.types.converters.CurrencyStringConverter
+20:26:45,839 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.Long using org.datanucleus.store.types.converters.DateLongConverter
+20:26:45,841 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.String using org.datanucleus.store.types.converters.DateStringConverter
+20:26:45,842 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Locale<->java.lang.String using org.datanucleus.store.types.converters.LocaleStringConverter
+20:26:45,843 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.Long using org.datanucleus.store.types.converters.SqlDateLongConverter
+20:26:45,844 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.String using org.datanucleus.store.types.converters.SqlDateStringConverter
+20:26:45,846 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimeLongConverter
+20:26:45,847 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.String using org.datanucleus.store.types.converters.SqlTimeStringConverter
+20:26:45,848 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Timestamp<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimestampLongConverter
+20:26:45,849 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuffer<->java.lang.String using org.datanucleus.store.types.converters.StringBufferStringConverter
+20:26:45,850 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.TimeZone<->java.lang.String using org.datanucleus.store.types.converters.TimeZoneStringConverter
+20:26:45,853 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URI<->java.lang.String using org.datanucleus.store.types.converters.URIStringConverter
+20:26:45,854 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URL<->java.lang.String using org.datanucleus.store.types.converters.URLStringConverter
+20:26:45,855 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.UUID<->java.lang.String using org.datanucleus.store.types.converters.UUIDStringConverter
+20:26:45,856 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDate<->java.lang.String ignored since java type not present in CLASSPATH
+20:26:45,858 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.String ignored since java type not present in CLASSPATH
+20:26:45,859 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.Long ignored since java type not present in CLASSPATH
+20:26:45,861 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDateTime<->java.lang.String ignored since java type not present in CLASSPATH
+20:26:45,863 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->java.lang.String using org.datanucleus.store.types.converters.SerializableStringConverter
+20:26:45,864 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->[B using org.datanucleus.store.types.converters.SerializableByteArrayConverter
+20:26:45,864 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+20:26:45,865 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+20:26:45,867 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.0.m1) : Enhancement of classes for JRE 1.6
+20:26:45,868 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+20:26:45,869 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/maven-datanucleus-plugin/3.2.0-m1/maven-datanucleus-plugin-3.2.0-m1.jar
+20:26:45,869 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar
+20:26:45,869 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/javax/jdo/jdo-api/3.0/jdo-api-3.0.jar
+20:26:45,869 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar
+20:26:45,870 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/apache/geronimo/specs/geronimo-jpa_2.0_spec/1.0/geronimo-jpa_2.0_spec-1.0.jar
+20:26:45,870 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar
+20:26:45,870 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar
+20:26:45,870 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+20:26:45,870 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar
+20:26:45,870 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+20:26:45,871 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar
+20:26:45,871 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+20:26:45,871 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar
+20:26:45,871 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+20:26:45,871 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+20:26:45,871 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar
+20:26:45,872 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/Documents/datanucleus/421/target/classes
+20:26:45,872 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar
+20:26:45,872 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+20:26:45,872 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar
+20:26:45,872 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/mysql/mysql-connector-java/5.1.17/mysql-connector-java-5.1.17.jar
+20:26:45,906 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[com.bstrawn.SRCI, com.bstrawn.Roberts, com.bstrawn.Student, com.bstrawn.MSGC, com.bstrawn.Honors, com.bstrawn.ProgramOfDistinction, com.bstrawn.Main, com.strawnplachta.MainGUI$13, com.strawnplachta.MainGUI$10, com.strawnplachta.MainGUI$4, com.strawnplachta.SRCI, com.strawnplachta.MainGUI$8, com.strawnplachta.RunSOD$1, com.strawnplachta.MainGUI$5, com.strawnplachta.Roberts, com.strawnplachta.Student, com.strawnplachta.MainGUI$12, com.strawnplachta.Model, com.strawnplachta.MainGUI$1, com.strawnplachta.RunSOD, com.strawnplachta.MSGC, com.strawnplachta.MainGUI$6, com.strawnplachta.MainGUI$9, com.strawnplachta.HandleActions, com.strawnplachta.MainGUI$11, com.strawnplachta.MainGUI$7, com.strawnplachta.Honors, com.strawnplachta.MainGUI$3, com.strawnplachta.ProgramOfDistinction, com.strawnplachta.MainGUI, com.strawnplachta.MainGUI$2, com.strawnplachta.MainGUI$14]" ...
+20:26:46,007 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" has been specified with JDO annotations so using those.
+20:26:46,013 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" has been specified with JDO annotations so using those.
+20:26:46,016 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" has been specified with JDO annotations so using those.
+20:26:46,048 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" has been specified with JDO annotations so using those.
+20:26:46,055 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" has been specified with JDO annotations so using those.
+20:26:46,060 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.ProgramOfDistinction" has been specified with JDO annotations so using those.
+20:26:46,085 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /META-INF/package.jdo
+20:26:46,085 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /WEB-INF/package.jdo
+20:26:46,086 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /package.jdo
+20:26:46,087 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/package.jdo
+20:26:46,088 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com.jdo
+20:26:46,089 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/bstrawn/package.jdo
+20:26:46,090 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/bstrawn.jdo
+20:26:46,091 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/bstrawn/Main.jdo
+20:26:46,091 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" not found
+20:26:46,091 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.bstrawn.Main" as not having MetaData.
+20:26:46,092 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Main" has no MetaData or annotations.
+20:26:46,093 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /META-INF/package.jdo
+20:26:46,094 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /WEB-INF/package.jdo
+20:26:46,095 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /package.jdo
+20:26:46,096 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/package.jdo
+20:26:46,097 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com.jdo
+20:26:46,100 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/strawnplachta/package.jdo
+20:26:46,101 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/strawnplachta.jdo
+20:26:46,102 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/strawnplachta/MainGUI$13.jdo
+20:26:46,102 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" not found
+20:26:46,102 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$13" as not having MetaData.
+20:26:46,102 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$13" has no MetaData or annotations.
+20:26:46,103 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /META-INF/package.jdo
+20:26:46,104 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /WEB-INF/package.jdo
+20:26:46,105 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /package.jdo
+20:26:46,106 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/package.jdo
+20:26:46,107 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com.jdo
+20:26:46,109 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/strawnplachta/package.jdo
+20:26:46,110 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/strawnplachta.jdo
+20:26:46,113 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/strawnplachta/MainGUI$10.jdo
+20:26:46,114 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" not found
+20:26:46,114 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$10" as not having MetaData.
+20:26:46,114 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$10" has no MetaData or annotations.
+20:26:46,115 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /META-INF/package.jdo
+20:26:46,116 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /WEB-INF/package.jdo
+20:26:46,117 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /package.jdo
+20:26:46,118 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/package.jdo
+20:26:46,119 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com.jdo
+20:26:46,120 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/strawnplachta/package.jdo
+20:26:46,121 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/strawnplachta.jdo
+20:26:46,121 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/strawnplachta/MainGUI$4.jdo
+20:26:46,122 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" not found
+20:26:46,122 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$4" as not having MetaData.
+20:26:46,122 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$4" has no MetaData or annotations.
+20:26:46,130 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" has been specified with JDO annotations so using those.
+20:26:46,133 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /META-INF/package.jdo
+20:26:46,133 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /WEB-INF/package.jdo
+20:26:46,134 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /package.jdo
+20:26:46,135 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/package.jdo
+20:26:46,135 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com.jdo
+20:26:46,143 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/strawnplachta/package.jdo
+20:26:46,144 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/strawnplachta.jdo
+20:26:46,145 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/strawnplachta/MainGUI$8.jdo
+20:26:46,145 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" not found
+20:26:46,145 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$8" as not having MetaData.
+20:26:46,145 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$8" has no MetaData or annotations.
+20:26:46,147 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /META-INF/package.jdo
+20:26:46,147 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /WEB-INF/package.jdo
+20:26:46,148 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /package.jdo
+20:26:46,149 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/package.jdo
+20:26:46,150 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com.jdo
+20:26:46,151 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/strawnplachta/package.jdo
+20:26:46,152 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/strawnplachta.jdo
+20:26:46,152 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/strawnplachta/RunSOD$1.jdo
+20:26:46,152 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" not found
+20:26:46,153 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.RunSOD$1" as not having MetaData.
+20:26:46,153 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.RunSOD$1" has no MetaData or annotations.
+20:26:46,155 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /META-INF/package.jdo
+20:26:46,155 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /WEB-INF/package.jdo
+20:26:46,156 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /package.jdo
+20:26:46,157 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/package.jdo
+20:26:46,158 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com.jdo
+20:26:46,159 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/strawnplachta/package.jdo
+20:26:46,160 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/strawnplachta.jdo
+20:26:46,160 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/strawnplachta/MainGUI$5.jdo
+20:26:46,161 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" not found
+20:26:46,161 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$5" as not having MetaData.
+20:26:46,161 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$5" has no MetaData or annotations.
+20:26:46,180 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" has been specified with JDO annotations so using those.
+20:26:46,183 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" has been specified with JDO annotations so using those.
+20:26:46,197 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /META-INF/package.jdo
+20:26:46,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /WEB-INF/package.jdo
+20:26:46,199 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /package.jdo
+20:26:46,200 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/package.jdo
+20:26:46,201 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com.jdo
+20:26:46,203 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/strawnplachta/package.jdo
+20:26:46,204 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/strawnplachta.jdo
+20:26:46,205 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/strawnplachta/MainGUI$12.jdo
+20:26:46,205 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" not found
+20:26:46,205 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$12" as not having MetaData.
+20:26:46,205 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$12" has no MetaData or annotations.
+20:26:46,207 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /META-INF/package.jdo
+20:26:46,207 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /WEB-INF/package.jdo
+20:26:46,208 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /package.jdo
+20:26:46,209 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/package.jdo
+20:26:46,211 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com.jdo
+20:26:46,211 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/strawnplachta/package.jdo
+20:26:46,212 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/strawnplachta.jdo
+20:26:46,213 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/strawnplachta/Model.jdo
+20:26:46,214 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" not found
+20:26:46,214 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.Model" as not having MetaData.
+20:26:46,214 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Model" has no MetaData or annotations.
+20:26:46,229 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /META-INF/package.jdo
+20:26:46,230 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /WEB-INF/package.jdo
+20:26:46,230 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /package.jdo
+20:26:46,231 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/package.jdo
+20:26:46,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com.jdo
+20:26:46,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/strawnplachta/package.jdo
+20:26:46,233 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/strawnplachta.jdo
+20:26:46,234 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/strawnplachta/MainGUI$1.jdo
+20:26:46,234 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" not found
+20:26:46,234 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$1" as not having MetaData.
+20:26:46,234 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$1" has no MetaData or annotations.
+20:26:46,236 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /META-INF/package.jdo
+20:26:46,237 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /WEB-INF/package.jdo
+20:26:46,238 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /package.jdo
+20:26:46,241 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/package.jdo
+20:26:46,241 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com.jdo
+20:26:46,245 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/strawnplachta/package.jdo
+20:26:46,246 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/strawnplachta.jdo
+20:26:46,247 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/strawnplachta/RunSOD.jdo
+20:26:46,247 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" not found
+20:26:46,248 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.RunSOD" as not having MetaData.
+20:26:46,248 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.RunSOD" has no MetaData or annotations.
+20:26:46,249 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" has been specified with JDO annotations so using those.
+20:26:46,259 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /META-INF/package.jdo
+20:26:46,260 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /WEB-INF/package.jdo
+20:26:46,260 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /package.jdo
+20:26:46,263 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/package.jdo
+20:26:46,264 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com.jdo
+20:26:46,265 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/strawnplachta/package.jdo
+20:26:46,265 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/strawnplachta.jdo
+20:26:46,268 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/strawnplachta/MainGUI$6.jdo
+20:26:46,268 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" not found
+20:26:46,268 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$6" as not having MetaData.
+20:26:46,268 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$6" has no MetaData or annotations.
+20:26:46,272 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /META-INF/package.jdo
+20:26:46,274 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /WEB-INF/package.jdo
+20:26:46,275 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /package.jdo
+20:26:46,276 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/package.jdo
+20:26:46,276 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com.jdo
+20:26:46,277 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/strawnplachta/package.jdo
+20:26:46,277 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/strawnplachta.jdo
+20:26:46,278 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/strawnplachta/MainGUI$9.jdo
+20:26:46,278 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" not found
+20:26:46,278 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$9" as not having MetaData.
+20:26:46,279 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$9" has no MetaData or annotations.
+20:26:46,280 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /META-INF/package.jdo
+20:26:46,281 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /WEB-INF/package.jdo
+20:26:46,281 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /package.jdo
+20:26:46,282 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/package.jdo
+20:26:46,283 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com.jdo
+20:26:46,283 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/strawnplachta/package.jdo
+20:26:46,284 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/strawnplachta.jdo
+20:26:46,285 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/strawnplachta/HandleActions.jdo
+20:26:46,285 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" not found
+20:26:46,285 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.HandleActions" as not having MetaData.
+20:26:46,286 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.HandleActions" has no MetaData or annotations.
+20:26:46,287 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /META-INF/package.jdo
+20:26:46,287 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /WEB-INF/package.jdo
+20:26:46,288 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /package.jdo
+20:26:46,289 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/package.jdo
+20:26:46,290 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com.jdo
+20:26:46,290 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/strawnplachta/package.jdo
+20:26:46,291 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/strawnplachta.jdo
+20:26:46,292 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/strawnplachta/MainGUI$11.jdo
+20:26:46,292 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" not found
+20:26:46,293 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$11" as not having MetaData.
+20:26:46,293 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$11" has no MetaData or annotations.
+20:26:46,294 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /META-INF/package.jdo
+20:26:46,295 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /WEB-INF/package.jdo
+20:26:46,295 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /package.jdo
+20:26:46,296 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/package.jdo
+20:26:46,297 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com.jdo
+20:26:46,297 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/strawnplachta/package.jdo
+20:26:46,298 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/strawnplachta.jdo
+20:26:46,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/strawnplachta/MainGUI$7.jdo
+20:26:46,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" not found
+20:26:46,300 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$7" as not having MetaData.
+20:26:46,300 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$7" has no MetaData or annotations.
+20:26:46,301 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" has been specified with JDO annotations so using those.
+20:26:46,304 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /META-INF/package.jdo
+20:26:46,304 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /WEB-INF/package.jdo
+20:26:46,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /package.jdo
+20:26:46,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/package.jdo
+20:26:46,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com.jdo
+20:26:46,307 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/strawnplachta/package.jdo
+20:26:46,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/strawnplachta.jdo
+20:26:46,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/strawnplachta/MainGUI$3.jdo
+20:26:46,309 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" not found
+20:26:46,309 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$3" as not having MetaData.
+20:26:46,309 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$3" has no MetaData or annotations.
+20:26:46,310 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.ProgramOfDistinction" has been specified with JDO annotations so using those.
+20:26:46,320 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /META-INF/package.jdo
+20:26:46,321 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /WEB-INF/package.jdo
+20:26:46,322 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /package.jdo
+20:26:46,323 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/package.jdo
+20:26:46,323 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com.jdo
+20:26:46,324 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/strawnplachta/package.jdo
+20:26:46,324 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/strawnplachta.jdo
+20:26:46,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/strawnplachta/MainGUI.jdo
+20:26:46,325 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" not found
+20:26:46,326 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI" as not having MetaData.
+20:26:46,326 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI" has no MetaData or annotations.
+20:26:46,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /META-INF/package.jdo
+20:26:46,327 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /WEB-INF/package.jdo
+20:26:46,328 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /package.jdo
+20:26:46,329 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/package.jdo
+20:26:46,330 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com.jdo
+20:26:46,330 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/strawnplachta/package.jdo
+20:26:46,331 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/strawnplachta.jdo
+20:26:46,332 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/strawnplachta/MainGUI$2.jdo
+20:26:46,332 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" not found
+20:26:46,333 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$2" as not having MetaData.
+20:26:46,333 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$2" has no MetaData or annotations.
+20:26:46,334 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /META-INF/package.jdo
+20:26:46,335 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /WEB-INF/package.jdo
+20:26:46,335 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /package.jdo
+20:26:46,336 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/package.jdo
+20:26:46,337 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com.jdo
+20:26:46,337 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/strawnplachta/package.jdo
+20:26:46,338 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/strawnplachta.jdo
+20:26:46,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/strawnplachta/MainGUI$14.jdo
+20:26:46,339 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" not found
+20:26:46,339 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$14" as not having MetaData.
+20:26:46,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$14" has no MetaData or annotations.
+20:26:46,340 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+20:26:46,341 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" : Populating Meta-Data
+20:26:46,341 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.ProgramOfDistinction" : Populating Meta-Data
+20:26:46,366 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "dateReceived" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,366 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,367 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,367 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,367 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" : Populating Meta-Data
+20:26:46,368 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,368 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,368 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "serviceProjectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,368 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "serviceProjectCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,368 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "tripDestination" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,369 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" : Populating Meta-Data
+20:26:46,369 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "firstName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,370 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "lastName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,370 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "address" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,370 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "zip" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,370 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "major" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,370 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "minor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,370 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "email" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,370 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "gpa" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,371 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "completedCredits" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,371 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "sex" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,371 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "programs" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,374 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" : Populating Meta-Data
+20:26:46,374 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,375 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,375 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,375 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,375 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,376 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" : Populating Meta-Data
+20:26:46,376 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,376 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,376 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "researchTopic" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,377 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "thesisCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,377 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "classCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,377 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "thesisPresentationDate" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,377 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,378 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" : Populating Meta-Data
+20:26:46,378 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,378 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.ProgramOfDistinction" : Populating Meta-Data
+20:26:46,380 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "dateReceived" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,381 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,381 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,381 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,381 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" : Populating Meta-Data
+20:26:46,382 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,382 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,382 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "serviceProjectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,382 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "serviceProjectCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,382 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "tripDestination" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,383 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" : Populating Meta-Data
+20:26:46,383 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "firstName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,383 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "lastName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,384 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "address" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,384 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "zip" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,384 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "major" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,384 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "minor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,384 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "email" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,385 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "gpa" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,385 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "completedCredits" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,385 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "sex" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,385 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "programs" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,386 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" : Populating Meta-Data
+20:26:46,387 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,387 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,388 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,388 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,388 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,388 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" : Populating Meta-Data
+20:26:46,389 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+20:26:46,389 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,389 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "researchTopic" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,390 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "thesisCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,390 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "classCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,390 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "thesisPresentationDate" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,390 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+20:26:46,391 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+20:26:46,398 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.ProgramOfDistinction" : Initialising Meta-Data
+20:26:46,399 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" : Initialising Meta-Data
+20:26:46,400 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" : Initialising Meta-Data
+20:26:46,400 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" : Initialising Meta-Data
+20:26:46,400 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" : Initialising Meta-Data
+20:26:46,401 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" : Initialising Meta-Data
+20:26:46,401 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.ProgramOfDistinction" : Initialising Meta-Data
+20:26:46,402 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" : Initialising Meta-Data
+20:26:46,402 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" : Initialising Meta-Data
+20:26:46,402 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" : Initialising Meta-Data
+20:26:46,403 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" : Initialising Meta-Data
+20:26:46,403 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" : Initialising Meta-Data
+20:26:46,403 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+20:26:46,411 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.SRCI" starting ...
+20:26:46,432 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.SRCI" is already enhanced.
+20:26:46,432 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.SRCI" completed
+20:26:46,432 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Roberts" starting ...
+20:26:46,433 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.Roberts" is already enhanced.
+20:26:46,434 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Roberts" completed
+20:26:46,434 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Student" starting ...
+20:26:46,463 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.Student" is already enhanced.
+20:26:46,463 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Student" completed
+20:26:46,463 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.MSGC" starting ...
+20:26:46,465 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.MSGC" is already enhanced.
+20:26:46,465 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.MSGC" completed
+20:26:46,465 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Honors" starting ...
+20:26:46,470 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" is already enhanced.
+20:26:46,471 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Honors" completed
+20:26:46,471 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.ProgramOfDistinction" starting ...
+20:26:46,473 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.ProgramOfDistinction" is already enhanced.
+20:26:46,473 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.ProgramOfDistinction" completed
+20:26:46,474 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.SRCI" starting ...
+20:26:46,481 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.SRCI" is already enhanced.
+20:26:46,484 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.SRCI" completed
+20:26:46,484 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Roberts" starting ...
+20:26:46,485 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" is already enhanced.
+20:26:46,486 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Roberts" completed
+20:26:46,487 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Student" starting ...
+20:26:46,489 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" is already enhanced.
+20:26:46,490 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Student" completed
+20:26:46,490 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.MSGC" starting ...
+20:26:46,491 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.MSGC" is already enhanced.
+20:26:46,492 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.MSGC" completed
+20:26:46,492 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Honors" starting ...
+20:26:46,493 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.Honors" is already enhanced.
+20:26:46,493 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Honors" completed
+20:26:46,494 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.ProgramOfDistinction" starting ...
+20:26:46,496 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.ProgramOfDistinction" is already enhanced.
+20:26:46,496 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.ProgramOfDistinction" completed
+20:26:46,497 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 12 classes. Timings : input=530 ms, enhance=93 ms, total=623 ms. Consult the log for full details

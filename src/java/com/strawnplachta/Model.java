@@ -20,8 +20,13 @@ public class Model {
 
     public Model () {
         // Create a PersistenceManagerFactory for this datastore
-        this.pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
-        this.programBools = new boolean[4];
+        try {
+            this.pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
+            this.programBools = new boolean[4];
+        } catch (Exception e) {
+
+        }
+        
     }
 
     public void addStudent (Student student) {
@@ -53,7 +58,8 @@ public class Model {
 		ArrayList<String[]> students = new ArrayList<String[]>();
 
         for (Student student : studentsList) {
-        	if (student == null) {
+        	
+            if (student == null) {
                 System.out.println("Student is null.");
             }
             if (this.checkStudentPrograms(student)) {
