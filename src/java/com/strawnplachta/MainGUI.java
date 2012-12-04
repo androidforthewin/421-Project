@@ -904,6 +904,8 @@ public class MainGUI extends JFrame {
 			minor = textFieldArray[13].getText();
 			email =	textFieldArray[5].getText();
 			sex = textFieldArray[9].getText();
+			
+			//test change
 
 			if(textFieldArray[15].getText().equals(""))
 			{
