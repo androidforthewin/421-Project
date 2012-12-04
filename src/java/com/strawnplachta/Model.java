@@ -19,14 +19,11 @@ public class Model {
     private boolean[] programBools;
 
     public Model () {
-        // Create a PersistenceManagerFactory for this datastore
-        try {
-            this.pmf = JDOHelper.getPersistenceManagerFactory("datanucleus.properties");
-            this.programBools = new boolean[4];
-        } catch (Exception e) {
-
-        }
+        /* Create a PersistenceManagerFactory for this datastore
         
+        
+        */
+        this.programBools = new boolean[4];
     }
 
     public void addStudent (Student student) {
@@ -54,20 +51,20 @@ public class Model {
     }
 
 	public ArrayList<String[]> searchForStudents (HashMap<String, String> parameters) {
-		List<Student> studentsList = this.searchDatabase(parameters);
+		this.pmf = this.pmf == null ? JDOHelper.getPersistenceManagerFactory("datanucleus.properties") : this.pmf;
+
+        List<Student> studentsList = this.searchDatabase(parameters);
 		ArrayList<String[]> students = new ArrayList<String[]>();
 
         for (Student student : studentsList) {
-        	
+        	System.out.println("Using: " + student.getFirstName() + ", " + student.getLastName());
             if (student == null) {
                 System.out.println("Student is null.");
             }
             if (this.checkStudentPrograms(student)) {
         		String[] toAdd = new String[2];
 	        	toAdd[0] = student.getFirstName();
-                System.out.println("First name is: " + toAdd[0]);
 	        	toAdd[1] = student.getLastName();
-                System.out.println("Last name is: " + toAdd[1]);
 	        	students.add(toAdd);
         	} else {
         		// student isn't a part of the required programs
@@ -110,6 +107,10 @@ public class Model {
             tx.begin();
             Query q=pm.newQuery("SELECT FROM " + Student.class.getName() + query);
             studentsList = (List<Student>)q.execute();
+            // test for null
+            for (Student student : studentsList) {
+                System.out.println("Immediately: " + student.getFirstName() + ", " + student.getLastName());
+            }
             tx.commit();
         }
         finally
@@ -119,6 +120,10 @@ public class Model {
                 tx.rollback();
             }
             pm.close();
+        }
+
+        for (Student student : studentsList) {
+            System.out.println("Returning: " + student.getFirstName() + ", " + student.getLastName());
         }
 
         return studentsList;
