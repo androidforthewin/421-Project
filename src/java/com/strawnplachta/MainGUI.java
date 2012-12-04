@@ -177,7 +177,7 @@ public class MainGUI extends JFrame {
 		//*******************************************************************************************************************************************
 		
 		panel_1 = new JPanel();
-		tabbedPane.addTab("General", null, panel_1, null);
+		tabbedPane.addTab("Testieus", null, panel_1, null);
 		panel_1.setLayout(null);
 		
 		//Check box array

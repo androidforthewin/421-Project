@@ -40,6 +40,21 @@ public class Student {
 		this.sex = null;
 		this.programs = new HashSet<ProgramOfDistinction>();
 	}
+
+	public Student(Student another) {
+		this.firstName = another.getFirstName();
+		this.lastName = another.getLastName();
+		this.studentID = another.getStudentID();
+		this.address = another.getAddress();
+		this.zip = another.getZip();
+		this.major = another.getMajor();
+		this.minor = another.getMinor();
+		this.email = another.getEmail();
+		this.gpa = another.getGpa();
+		this.completedCredits = another.getCompletedCredits();
+		this.sex = another.getSex();
+		this.programs = another.getPrograms();
+	}
 	
 	public Student (String firstName, String lastName, int studentID, String address, int zip, 
 		String major, String minor, String email, float gpa, int completedCredits, String sex) {

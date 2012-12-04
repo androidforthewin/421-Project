@@ -91,6 +91,7 @@ public class Model {
         this.programBools[3] = false;	// roberts
         
         List<Student> studentsList;
+        List<Student> studentsList2;
         String query = " WHERE ";
         Map.Entry<String, String> firstParam = parameters.entrySet().iterator().next();
         query = this.addToQuery(true, query, firstParam);
@@ -109,6 +110,7 @@ public class Model {
             studentsList = (List<Student>)q.execute();
             // test for null
             for (Student student : studentsList) {
+                studentsList2.add(new Student(student));
                 System.out.println("Immediately: " + student.getFirstName() + ", " + student.getLastName());
             }
             tx.commit();
@@ -126,7 +128,7 @@ public class Model {
             System.out.println("Returning: " + student.getFirstName() + ", " + student.getLastName());
         }
 
-        return studentsList;
+        return studentsList2;
 	}
 
 	private String addToQuery (boolean first, String query, Map.Entry<String, String> param) {
