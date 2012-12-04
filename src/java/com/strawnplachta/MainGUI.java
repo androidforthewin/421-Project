@@ -284,11 +284,11 @@ public class MainGUI extends JFrame {
       		{
 	        	if (checkBoxArray[19].isSelected())
 	        	{
-	        		controller.setCheckBoxes(20, 35, true);
+	        		controller.setCheckBoxes(20, 36, true);
 	        	}
 	        	else
 	        	{
-	        		controller.setCheckBoxes(20, 35, false);
+	        		controller.setCheckBoxes(20, 36, false);
 	        	}
       		}
     	});	
@@ -445,11 +445,11 @@ public class MainGUI extends JFrame {
       		{
 	        	if (checkBoxArray[43].isSelected())
 	        	{
-	        		controller.setCheckBoxes(41, 42, true);
+	        		controller.setCheckBoxes(41, 43, true);
 	        	}
 	        	else
 	        	{
-	        		controller.setCheckBoxes(41, 42, false);
+	        		controller.setCheckBoxes(41, 43, false);
 	        	}
       		}
     	});
