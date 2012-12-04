@@ -1,5 +1,5 @@
 package com.bstrawn;
-
+//commit
 import javax.jdo.annotations.PersistenceCapable;
 
 /** This is the class for when students are a part of the Honors program */
