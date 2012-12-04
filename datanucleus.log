@@ -17197,3 +17197,827 @@
 21:19:09,061 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.ProgramOfDistinction" is already enhanced.
 21:19:09,061 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.ProgramOfDistinction" completed
 21:19:09,062 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 12 classes. Timings : input=364 ms, enhance=63 ms, total=427 ms. Consult the log for full details
+21:47:48,558 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer for API "JDO"
+21:47:48,583 (main) DEBUG [DataNucleus.General] - Plugin Registry "org.datanucleus.plugin.EclipsePluginRegistry" not found. Falling back to DataNucleus registry. Reason : Class "org.eclipse.core.runtime.RegistryFactory" was not found in the CLASSPATH. Please check your specification and your CLASSPATH..
+21:47:48,584 (main) DEBUG [DataNucleus.General] - Using PluginRegistry org.datanucleus.plugin.NonManagedPluginRegistry
+21:47:48,622 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus version 3.2.0.m1 at URL file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar.
+21:47:48,681 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar!/plugin.xml.
+21:47:48,732 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar!/plugin.xml.
+21:47:48,745 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.api.jdo version 3.2.0.m1 at URL file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar.
+21:47:48,752 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar!/plugin.xml.
+21:47:48,755 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar!/plugin.xml.
+21:47:48,758 (main) DEBUG [DataNucleus.General] - Registering bundle org.datanucleus.store.rdbms version 3.2.0.m1 at URL file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar.
+21:47:48,801 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar!/plugin.xml.
+21:47:48,823 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar!/plugin.xml.
+21:47:48,840 (main) DEBUG [DataNucleus.General] - Registering bundle org.sonatype.inject version 2.3.0 at URL file:/home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar.
+21:47:48,842 (main) DEBUG [DataNucleus.General] - Loading extension points from plug-in file jar:file:/home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+21:47:48,842 (main) DEBUG [DataNucleus.General] - Loading extensions from plug-in file jar:file:/home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar!/plugin.xml.
+21:47:48,893 (main) DEBUG [DataNucleus.Persistence] - Java types support initialising ...
+21:47:48,895 (main) DEBUG [DataNucleus.Persistence] - Java type boolean (DFG=true, embedded=true)
+21:47:48,895 (main) DEBUG [DataNucleus.Persistence] - Java type byte (DFG=true, embedded=true)
+21:47:48,895 (main) DEBUG [DataNucleus.Persistence] - Java type char (DFG=true, embedded=true)
+21:47:48,895 (main) DEBUG [DataNucleus.Persistence] - Java type double (DFG=true, embedded=true)
+21:47:48,895 (main) DEBUG [DataNucleus.Persistence] - Java type float (DFG=true, embedded=true)
+21:47:48,895 (main) DEBUG [DataNucleus.Persistence] - Java type int (DFG=true, embedded=true)
+21:47:48,895 (main) DEBUG [DataNucleus.Persistence] - Java type long (DFG=true, embedded=true)
+21:47:48,896 (main) DEBUG [DataNucleus.Persistence] - Java type short (DFG=true, embedded=true)
+21:47:48,896 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Boolean (DFG=true, embedded=true)
+21:47:48,896 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Byte (DFG=true, embedded=true)
+21:47:48,896 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Character (DFG=true, embedded=true)
+21:47:48,896 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Double (DFG=true, embedded=true)
+21:47:48,896 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Float (DFG=true, embedded=true)
+21:47:48,896 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Integer (DFG=true, embedded=true)
+21:47:48,897 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Long (DFG=true, embedded=true)
+21:47:48,897 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Short (DFG=true, embedded=true)
+21:47:48,897 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Number (DFG=true, embedded=true)
+21:47:48,897 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.String (DFG=true, embedded=true)
+21:47:48,897 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Enum (DFG=true, embedded=true)
+21:47:48,897 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.StringBuffer (DFG=true, embedded=true)
+21:47:48,898 (main) DEBUG [DataNucleus.Persistence] - Java type java.lang.Class (DFG=true, embedded=true)
+21:47:48,898 (main) DEBUG [DataNucleus.Persistence] - Java type java.awt.image.BufferedImage (DFG=false, embedded=true)
+21:47:48,899 (main) DEBUG [DataNucleus.Persistence] - Java type java.awt.Color (DFG=false, embedded=true)
+21:47:48,899 (main) DEBUG [DataNucleus.Persistence] - Java type java.math.BigDecimal (DFG=true, embedded=true)
+21:47:48,899 (main) DEBUG [DataNucleus.Persistence] - Java type java.math.BigInteger (DFG=true, embedded=true)
+21:47:48,900 (main) DEBUG [DataNucleus.Persistence] - Java type java.net.URL (DFG=true, embedded=true)
+21:47:48,900 (main) DEBUG [DataNucleus.Persistence] - Java type java.net.URI (DFG=true, embedded=true)
+21:47:48,901 (main) DEBUG [DataNucleus.Persistence] - Java type java.sql.Date (DFG=true, embedded=true)
+21:47:48,902 (main) DEBUG [DataNucleus.Persistence] - Java type java.sql.Time (DFG=true, embedded=true)
+21:47:48,903 (main) DEBUG [DataNucleus.Persistence] - Java type java.sql.Timestamp (DFG=true, embedded=true)
+21:47:48,906 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Date (DFG=true, embedded=true)
+21:47:48,907 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Locale (DFG=true, embedded=true)
+21:47:48,907 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Currency (DFG=true, embedded=true)
+21:47:48,908 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Calendar (DFG=true, embedded=true)
+21:47:48,908 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.GregorianCalendar (DFG=true, embedded=true)
+21:47:48,909 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.UUID (DFG=true, embedded=true)
+21:47:48,909 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.TimeZone (DFG=true, embedded=true)
+21:47:48,912 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.ArrayList (DFG=false, embedded=false)
+21:47:48,912 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Arrays$ArrayList (DFG=false, embedded=false)
+21:47:48,913 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.BitSet (DFG=false, embedded=false)
+21:47:48,915 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Collection (DFG=false, embedded=false)
+21:47:48,918 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.HashMap (DFG=false, embedded=false)
+21:47:48,919 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.HashSet (DFG=false, embedded=false)
+21:47:48,922 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Hashtable (DFG=false, embedded=false)
+21:47:48,923 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.LinkedHashMap (DFG=false, embedded=false)
+21:47:48,925 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.LinkedHashSet (DFG=false, embedded=false)
+21:47:48,927 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.LinkedList (DFG=false, embedded=false)
+21:47:48,929 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.List (DFG=false, embedded=false)
+21:47:48,931 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Map (DFG=false, embedded=false)
+21:47:48,934 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.PriorityQueue (DFG=false, embedded=false)
+21:47:48,936 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Properties (DFG=false, embedded=false)
+21:47:48,938 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Queue (DFG=false, embedded=false)
+21:47:48,939 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Set (DFG=false, embedded=false)
+21:47:48,942 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.SortedSet (DFG=false, embedded=false)
+21:47:48,944 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.SortedMap (DFG=false, embedded=false)
+21:47:48,946 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Stack (DFG=false, embedded=false)
+21:47:48,948 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.TreeMap (DFG=false, embedded=false)
+21:47:48,951 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.TreeSet (DFG=false, embedded=false)
+21:47:48,953 (main) DEBUG [DataNucleus.Persistence] - Java type java.util.Vector (DFG=false, embedded=false)
+21:47:48,953 (main) DEBUG [DataNucleus.Persistence] - Java type [B (DFG=false, embedded=true)
+21:47:48,953 (main) DEBUG [DataNucleus.Persistence] - Java type [C (DFG=false, embedded=true)
+21:47:48,954 (main) DEBUG [DataNucleus.Persistence] - Java type [D (DFG=false, embedded=true)
+21:47:48,954 (main) DEBUG [DataNucleus.Persistence] - Java type [F (DFG=false, embedded=true)
+21:47:48,954 (main) DEBUG [DataNucleus.Persistence] - Java type [I (DFG=false, embedded=true)
+21:47:48,954 (main) DEBUG [DataNucleus.Persistence] - Java type [J (DFG=false, embedded=true)
+21:47:48,954 (main) DEBUG [DataNucleus.Persistence] - Java type [S (DFG=false, embedded=true)
+21:47:48,954 (main) DEBUG [DataNucleus.Persistence] - Java type [Z (DFG=false, embedded=true)
+21:47:48,954 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Boolean; (DFG=false, embedded=true)
+21:47:48,955 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Byte; (DFG=false, embedded=true)
+21:47:48,955 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Character; (DFG=false, embedded=true)
+21:47:48,955 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Double; (DFG=false, embedded=true)
+21:47:48,955 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Float; (DFG=false, embedded=true)
+21:47:48,955 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Integer; (DFG=false, embedded=true)
+21:47:48,955 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Long; (DFG=false, embedded=true)
+21:47:48,955 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Short; (DFG=false, embedded=true)
+21:47:48,956 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Number; (DFG=false, embedded=true)
+21:47:48,956 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.String; (DFG=false, embedded=true)
+21:47:48,956 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.math.BigInteger; (DFG=false, embedded=true)
+21:47:48,956 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.math.BigDecimal; (DFG=false, embedded=true)
+21:47:48,956 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.util.Date; (DFG=false, embedded=true)
+21:47:48,956 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.util.Locale; (DFG=false, embedded=true)
+21:47:48,956 (main) DEBUG [DataNucleus.Persistence] - Java type [Ljava.lang.Enum; (DFG=false, embedded=true)
+21:47:48,957 (main) DEBUG [DataNucleus.Persistence] - Java types support loaded
+21:47:48,957 (main) DEBUG [DataNucleus.Persistence] - Type converter support initialising ...
+21:47:48,958 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigDecimal<->java.lang.String using org.datanucleus.store.types.converters.BigDecimalStringConverter
+21:47:48,959 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.math.BigInteger<->java.lang.String using org.datanucleus.store.types.converters.BigIntegerStringConverter
+21:47:48,960 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.BitSet<->java.lang.String using org.datanucleus.store.types.converters.BitSetStringConverter
+21:47:48,962 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Calendar<->java.lang.String using org.datanucleus.store.types.converters.CalendarStringConverter
+21:47:48,963 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.Class<->java.lang.String using org.datanucleus.store.types.converters.ClassStringConverter
+21:47:48,964 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.awt.Color<->java.lang.String using org.datanucleus.store.types.converters.ColorStringConverter
+21:47:48,965 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Currency<->java.lang.String using org.datanucleus.store.types.converters.CurrencyStringConverter
+21:47:48,966 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.Long using org.datanucleus.store.types.converters.DateLongConverter
+21:47:48,967 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Date<->java.lang.String using org.datanucleus.store.types.converters.DateStringConverter
+21:47:48,968 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.Locale<->java.lang.String using org.datanucleus.store.types.converters.LocaleStringConverter
+21:47:48,969 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.Long using org.datanucleus.store.types.converters.SqlDateLongConverter
+21:47:48,970 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Date<->java.lang.String using org.datanucleus.store.types.converters.SqlDateStringConverter
+21:47:48,971 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimeLongConverter
+21:47:48,971 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Time<->java.lang.String using org.datanucleus.store.types.converters.SqlTimeStringConverter
+21:47:48,972 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.sql.Timestamp<->java.lang.Long using org.datanucleus.store.types.converters.SqlTimestampLongConverter
+21:47:48,973 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.lang.StringBuffer<->java.lang.String using org.datanucleus.store.types.converters.StringBufferStringConverter
+21:47:48,974 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.TimeZone<->java.lang.String using org.datanucleus.store.types.converters.TimeZoneStringConverter
+21:47:48,975 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URI<->java.lang.String using org.datanucleus.store.types.converters.URIStringConverter
+21:47:48,976 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.net.URL<->java.lang.String using org.datanucleus.store.types.converters.URLStringConverter
+21:47:48,977 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.util.UUID<->java.lang.String using org.datanucleus.store.types.converters.UUIDStringConverter
+21:47:48,978 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDate<->java.lang.String ignored since java type not present in CLASSPATH
+21:47:48,979 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.String ignored since java type not present in CLASSPATH
+21:47:48,980 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalTime<->java.lang.Long ignored since java type not present in CLASSPATH
+21:47:48,982 (main) DEBUG [DataNucleus.Persistence] - TypeConverter for javax.time.calendar.LocalDateTime<->java.lang.String ignored since java type not present in CLASSPATH
+21:47:48,983 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->java.lang.String using org.datanucleus.store.types.converters.SerializableStringConverter
+21:47:48,984 (main) DEBUG [DataNucleus.Persistence] - Added converter for java.io.Serializable<->[B using org.datanucleus.store.types.converters.SerializableByteArrayConverter
+21:47:48,984 (main) DEBUG [DataNucleus.Persistence] - Type converter support loaded
+21:47:48,984 (main) DEBUG [DataNucleus.MetaData] - MetaDataManager : Input=(XML,Annotations), XML-Validation=false, XML-Suffices=(persistence=*.jdo, orm=orm, query=*.jdoquery), JDO-listener=false
+21:47:48,987 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer (version 3.2.0.m1) : Enhancement of classes for JRE 1.6
+21:47:48,987 (main) DEBUG [DataNucleus.Enhancer] - DataNucleus Enhancer : Classpath
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/maven-datanucleus-plugin/3.2.0-m1/maven-datanucleus-plugin-3.2.0-m1.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/datanucleus-core/3.2.0-m1/datanucleus-core-3.2.0-m1.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/javax/jdo/jdo-api/3.0/jdo-api-3.0.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/javax/transaction/transaction-api/1.1/transaction-api-1.1.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/apache/geronimo/specs/geronimo-jpa_2.0_spec/1.0/geronimo-jpa_2.0_spec-1.0.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.8/plexus-utils-3.0.8.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.3.0/sisu-inject-bean-2.3.0.jar
+21:47:48,988 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-guice/3.1.0/sisu-guice-3.1.0-no_aop.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/sonatype/sisu/sisu-guava/0.9.9/sisu-guava-0.9.9.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/apache/xbean/xbean-reflect/3.4/xbean-reflect-3.4.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/log4j/log4j/1.2.12/log4j-1.2.12.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/commons-logging/commons-logging-api/1.1/commons-logging-api-1.1.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/com/google/collections/google-collections/1.0/google-collections-1.0.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/junit/junit/3.8.2/junit-3.8.2.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/Documents/datanucleus/421/target/classes
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/datanucleus-api-jdo/3.2.0-m1/datanucleus-api-jdo-3.2.0-m1.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar
+21:47:48,989 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/org/datanucleus/datanucleus-rdbms/3.2.0-m1/datanucleus-rdbms-3.2.0-m1.jar
+21:47:48,990 (main) DEBUG [DataNucleus.Enhancer] - >>  /home/bstrawn/.m2/repository/mysql/mysql-connector-java/5.1.17/mysql-connector-java-5.1.17.jar
+21:47:49,018 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Loading Metadata for classes "[com.bstrawn.SRCI, com.bstrawn.Roberts, com.bstrawn.Student, com.bstrawn.MSGC, com.bstrawn.Honors, com.bstrawn.ProgramOfDistinction, com.bstrawn.Main, com.strawnplachta.MainGUI$13, com.strawnplachta.MainGUI$10, com.strawnplachta.MainGUI$4, com.strawnplachta.SRCI, com.strawnplachta.MainGUI$8, com.strawnplachta.RunSOD$1, com.strawnplachta.MainGUI$5, com.strawnplachta.Roberts, com.strawnplachta.Student, com.strawnplachta.MainGUI$12, com.strawnplachta.Model, com.strawnplachta.MainGUI$1, com.strawnplachta.RunSOD, com.strawnplachta.MSGC, com.strawnplachta.MainGUI$6, com.strawnplachta.MainGUI$9, com.strawnplachta.HandleActions, com.strawnplachta.MainGUI$11, com.strawnplachta.MainGUI$7, com.strawnplachta.Honors, com.strawnplachta.MainGUI$3, com.strawnplachta.ProgramOfDistinction, com.strawnplachta.MainGUI, com.strawnplachta.MainGUI$2, com.strawnplachta.MainGUI$14]" ...
+21:47:49,103 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" has been specified with JDO annotations so using those.
+21:47:49,108 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" has been specified with JDO annotations so using those.
+21:47:49,111 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" has been specified with JDO annotations so using those.
+21:47:49,128 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" has been specified with JDO annotations so using those.
+21:47:49,130 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" has been specified with JDO annotations so using those.
+21:47:49,132 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.ProgramOfDistinction" has been specified with JDO annotations so using those.
+21:47:49,148 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /META-INF/package.jdo
+21:47:49,149 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /WEB-INF/package.jdo
+21:47:49,150 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /package.jdo
+21:47:49,151 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/package.jdo
+21:47:49,152 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com.jdo
+21:47:49,152 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/bstrawn/package.jdo
+21:47:49,153 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/bstrawn.jdo
+21:47:49,154 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" NOT found at /com/bstrawn/Main.jdo
+21:47:49,154 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.bstrawn.Main" not found
+21:47:49,154 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.bstrawn.Main" as not having MetaData.
+21:47:49,154 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Main" has no MetaData or annotations.
+21:47:49,156 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /META-INF/package.jdo
+21:47:49,157 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /WEB-INF/package.jdo
+21:47:49,158 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /package.jdo
+21:47:49,159 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/package.jdo
+21:47:49,159 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com.jdo
+21:47:49,160 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/strawnplachta/package.jdo
+21:47:49,161 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/strawnplachta.jdo
+21:47:49,162 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" NOT found at /com/strawnplachta/MainGUI$13.jdo
+21:47:49,162 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$13" not found
+21:47:49,162 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$13" as not having MetaData.
+21:47:49,163 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$13" has no MetaData or annotations.
+21:47:49,164 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /META-INF/package.jdo
+21:47:49,165 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /WEB-INF/package.jdo
+21:47:49,165 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /package.jdo
+21:47:49,166 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/package.jdo
+21:47:49,167 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com.jdo
+21:47:49,167 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/strawnplachta/package.jdo
+21:47:49,168 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/strawnplachta.jdo
+21:47:49,168 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" NOT found at /com/strawnplachta/MainGUI$10.jdo
+21:47:49,169 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$10" not found
+21:47:49,169 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$10" as not having MetaData.
+21:47:49,170 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$10" has no MetaData or annotations.
+21:47:49,171 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /META-INF/package.jdo
+21:47:49,172 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /WEB-INF/package.jdo
+21:47:49,172 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /package.jdo
+21:47:49,174 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/package.jdo
+21:47:49,174 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com.jdo
+21:47:49,175 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/strawnplachta/package.jdo
+21:47:49,175 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/strawnplachta.jdo
+21:47:49,176 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" NOT found at /com/strawnplachta/MainGUI$4.jdo
+21:47:49,176 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$4" not found
+21:47:49,176 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$4" as not having MetaData.
+21:47:49,176 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$4" has no MetaData or annotations.
+21:47:49,179 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" has been specified with JDO annotations so using those.
+21:47:49,182 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /META-INF/package.jdo
+21:47:49,182 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /WEB-INF/package.jdo
+21:47:49,183 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /package.jdo
+21:47:49,184 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/package.jdo
+21:47:49,184 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com.jdo
+21:47:49,185 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/strawnplachta/package.jdo
+21:47:49,186 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/strawnplachta.jdo
+21:47:49,186 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" NOT found at /com/strawnplachta/MainGUI$8.jdo
+21:47:49,187 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$8" not found
+21:47:49,187 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$8" as not having MetaData.
+21:47:49,187 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$8" has no MetaData or annotations.
+21:47:49,188 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /META-INF/package.jdo
+21:47:49,189 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /WEB-INF/package.jdo
+21:47:49,190 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /package.jdo
+21:47:49,190 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/package.jdo
+21:47:49,191 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com.jdo
+21:47:49,192 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/strawnplachta/package.jdo
+21:47:49,193 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/strawnplachta.jdo
+21:47:49,193 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" NOT found at /com/strawnplachta/RunSOD$1.jdo
+21:47:49,193 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD$1" not found
+21:47:49,193 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.RunSOD$1" as not having MetaData.
+21:47:49,194 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.RunSOD$1" has no MetaData or annotations.
+21:47:49,195 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /META-INF/package.jdo
+21:47:49,195 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /WEB-INF/package.jdo
+21:47:49,196 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /package.jdo
+21:47:49,196 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/package.jdo
+21:47:49,197 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com.jdo
+21:47:49,197 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/strawnplachta/package.jdo
+21:47:49,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/strawnplachta.jdo
+21:47:49,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" NOT found at /com/strawnplachta/MainGUI$5.jdo
+21:47:49,198 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$5" not found
+21:47:49,199 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$5" as not having MetaData.
+21:47:49,199 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$5" has no MetaData or annotations.
+21:47:49,208 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" has been specified with JDO annotations so using those.
+21:47:49,210 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" has been specified with JDO annotations so using those.
+21:47:49,213 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /META-INF/package.jdo
+21:47:49,213 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /WEB-INF/package.jdo
+21:47:49,214 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /package.jdo
+21:47:49,215 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/package.jdo
+21:47:49,216 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com.jdo
+21:47:49,216 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/strawnplachta/package.jdo
+21:47:49,217 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/strawnplachta.jdo
+21:47:49,218 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" NOT found at /com/strawnplachta/MainGUI$12.jdo
+21:47:49,218 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$12" not found
+21:47:49,218 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$12" as not having MetaData.
+21:47:49,218 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$12" has no MetaData or annotations.
+21:47:49,220 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /META-INF/package.jdo
+21:47:49,221 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /WEB-INF/package.jdo
+21:47:49,222 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /package.jdo
+21:47:49,223 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/package.jdo
+21:47:49,223 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com.jdo
+21:47:49,224 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/strawnplachta/package.jdo
+21:47:49,225 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/strawnplachta.jdo
+21:47:49,226 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" NOT found at /com/strawnplachta/Model.jdo
+21:47:49,226 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.Model" not found
+21:47:49,226 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.Model" as not having MetaData.
+21:47:49,226 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Model" has no MetaData or annotations.
+21:47:49,228 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /META-INF/package.jdo
+21:47:49,228 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /WEB-INF/package.jdo
+21:47:49,229 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /package.jdo
+21:47:49,230 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/package.jdo
+21:47:49,231 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com.jdo
+21:47:49,232 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/strawnplachta/package.jdo
+21:47:49,233 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/strawnplachta.jdo
+21:47:49,234 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" NOT found at /com/strawnplachta/MainGUI$1.jdo
+21:47:49,234 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$1" not found
+21:47:49,234 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$1" as not having MetaData.
+21:47:49,234 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$1" has no MetaData or annotations.
+21:47:49,236 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /META-INF/package.jdo
+21:47:49,237 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /WEB-INF/package.jdo
+21:47:49,237 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /package.jdo
+21:47:49,238 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/package.jdo
+21:47:49,239 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com.jdo
+21:47:49,240 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/strawnplachta/package.jdo
+21:47:49,241 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/strawnplachta.jdo
+21:47:49,242 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" NOT found at /com/strawnplachta/RunSOD.jdo
+21:47:49,242 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.RunSOD" not found
+21:47:49,243 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.RunSOD" as not having MetaData.
+21:47:49,243 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.RunSOD" has no MetaData or annotations.
+21:47:49,244 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" has been specified with JDO annotations so using those.
+21:47:49,247 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /META-INF/package.jdo
+21:47:49,248 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /WEB-INF/package.jdo
+21:47:49,249 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /package.jdo
+21:47:49,250 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/package.jdo
+21:47:49,250 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com.jdo
+21:47:49,251 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/strawnplachta/package.jdo
+21:47:49,252 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/strawnplachta.jdo
+21:47:49,253 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" NOT found at /com/strawnplachta/MainGUI$6.jdo
+21:47:49,253 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$6" not found
+21:47:49,253 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$6" as not having MetaData.
+21:47:49,253 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$6" has no MetaData or annotations.
+21:47:49,255 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /META-INF/package.jdo
+21:47:49,256 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /WEB-INF/package.jdo
+21:47:49,256 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /package.jdo
+21:47:49,257 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/package.jdo
+21:47:49,258 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com.jdo
+21:47:49,259 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/strawnplachta/package.jdo
+21:47:49,260 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/strawnplachta.jdo
+21:47:49,261 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" NOT found at /com/strawnplachta/MainGUI$9.jdo
+21:47:49,261 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$9" not found
+21:47:49,261 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$9" as not having MetaData.
+21:47:49,261 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$9" has no MetaData or annotations.
+21:47:49,263 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /META-INF/package.jdo
+21:47:49,264 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /WEB-INF/package.jdo
+21:47:49,265 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /package.jdo
+21:47:49,266 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/package.jdo
+21:47:49,266 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com.jdo
+21:47:49,267 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/strawnplachta/package.jdo
+21:47:49,268 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/strawnplachta.jdo
+21:47:49,269 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" NOT found at /com/strawnplachta/HandleActions.jdo
+21:47:49,269 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.HandleActions" not found
+21:47:49,269 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.HandleActions" as not having MetaData.
+21:47:49,269 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.HandleActions" has no MetaData or annotations.
+21:47:49,271 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /META-INF/package.jdo
+21:47:49,271 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /WEB-INF/package.jdo
+21:47:49,272 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /package.jdo
+21:47:49,273 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/package.jdo
+21:47:49,273 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com.jdo
+21:47:49,274 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/strawnplachta/package.jdo
+21:47:49,275 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/strawnplachta.jdo
+21:47:49,276 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" NOT found at /com/strawnplachta/MainGUI$11.jdo
+21:47:49,276 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$11" not found
+21:47:49,276 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$11" as not having MetaData.
+21:47:49,276 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$11" has no MetaData or annotations.
+21:47:49,278 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /META-INF/package.jdo
+21:47:49,279 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /WEB-INF/package.jdo
+21:47:49,279 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /package.jdo
+21:47:49,280 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/package.jdo
+21:47:49,281 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com.jdo
+21:47:49,282 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/strawnplachta/package.jdo
+21:47:49,282 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/strawnplachta.jdo
+21:47:49,283 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" NOT found at /com/strawnplachta/MainGUI$7.jdo
+21:47:49,283 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$7" not found
+21:47:49,283 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$7" as not having MetaData.
+21:47:49,283 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$7" has no MetaData or annotations.
+21:47:49,284 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" has been specified with JDO annotations so using those.
+21:47:49,286 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /META-INF/package.jdo
+21:47:49,287 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /WEB-INF/package.jdo
+21:47:49,287 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /package.jdo
+21:47:49,288 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/package.jdo
+21:47:49,288 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com.jdo
+21:47:49,289 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/strawnplachta/package.jdo
+21:47:49,289 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/strawnplachta.jdo
+21:47:49,290 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" NOT found at /com/strawnplachta/MainGUI$3.jdo
+21:47:49,290 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$3" not found
+21:47:49,290 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$3" as not having MetaData.
+21:47:49,290 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$3" has no MetaData or annotations.
+21:47:49,290 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.ProgramOfDistinction" has been specified with JDO annotations so using those.
+21:47:49,298 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /META-INF/package.jdo
+21:47:49,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /WEB-INF/package.jdo
+21:47:49,299 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /package.jdo
+21:47:49,300 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/package.jdo
+21:47:49,300 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com.jdo
+21:47:49,300 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/strawnplachta/package.jdo
+21:47:49,301 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/strawnplachta.jdo
+21:47:49,302 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" NOT found at /com/strawnplachta/MainGUI.jdo
+21:47:49,302 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI" not found
+21:47:49,302 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI" as not having MetaData.
+21:47:49,302 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI" has no MetaData or annotations.
+21:47:49,303 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /META-INF/package.jdo
+21:47:49,304 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /WEB-INF/package.jdo
+21:47:49,304 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /package.jdo
+21:47:49,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/package.jdo
+21:47:49,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com.jdo
+21:47:49,305 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/strawnplachta/package.jdo
+21:47:49,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/strawnplachta.jdo
+21:47:49,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" NOT found at /com/strawnplachta/MainGUI$2.jdo
+21:47:49,306 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$2" not found
+21:47:49,307 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$2" as not having MetaData.
+21:47:49,307 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$2" has no MetaData or annotations.
+21:47:49,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /META-INF/package.jdo
+21:47:49,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /WEB-INF/package.jdo
+21:47:49,308 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /package.jdo
+21:47:49,309 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/package.jdo
+21:47:49,310 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com.jdo
+21:47:49,310 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/strawnplachta/package.jdo
+21:47:49,311 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/strawnplachta.jdo
+21:47:49,311 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" NOT found at /com/strawnplachta/MainGUI$14.jdo
+21:47:49,311 (main) DEBUG [DataNucleus.MetaData] - MetaData of type "jdo" for class "com.strawnplachta.MainGUI$14" not found
+21:47:49,311 (main) DEBUG [DataNucleus.MetaData] - Registering class "com.strawnplachta.MainGUI$14" as not having MetaData.
+21:47:49,311 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MainGUI$14" has no MetaData or annotations.
+21:47:49,311 (main) DEBUG [DataNucleus.MetaData] - Populating all MetaData ...
+21:47:49,312 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" : Populating Meta-Data
+21:47:49,313 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,313 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.ProgramOfDistinction" : Populating Meta-Data
+21:47:49,330 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "dateReceived" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,330 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,330 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,330 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,331 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" : Populating Meta-Data
+21:47:49,331 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,331 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,331 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "serviceProjectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,332 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "serviceProjectCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,332 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" field "tripDestination" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,333 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" : Populating Meta-Data
+21:47:49,333 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "firstName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,333 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "lastName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "address" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "zip" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "major" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "minor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "email" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "gpa" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "completedCredits" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "sex" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,334 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" field "programs" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,337 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" : Populating Meta-Data
+21:47:49,338 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,338 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,338 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,338 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,338 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,338 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" : Populating Meta-Data
+21:47:49,338 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" has had its persistence-capable-superclass set to "com.bstrawn.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "researchTopic" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "thesisCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "classCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "thesisPresentationDate" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,339 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" : Populating Meta-Data
+21:47:49,340 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,340 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.ProgramOfDistinction" : Populating Meta-Data
+21:47:49,340 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "dateReceived" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,340 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,340 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,341 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,341 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" : Populating Meta-Data
+21:47:49,341 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "serviceProjectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "serviceProjectCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" field "tripDestination" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" : Populating Meta-Data
+21:47:49,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "firstName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,342 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "lastName" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "address" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "zip" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "major" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "minor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "email" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "gpa" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "completedCredits" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "sex" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,343 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" field "programs" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,344 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" : Populating Meta-Data
+21:47:49,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "projectDescription" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "grantAmount" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" : Populating Meta-Data
+21:47:49,345 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" has had its persistence-capable-superclass set to "com.strawnplachta.ProgramOfDistinction" - it wasnt specified in the MetaData.
+21:47:49,346 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "dateJoined" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,346 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "researchTopic" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,346 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "thesisCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,346 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "classCompleted" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,346 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "thesisPresentationDate" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,346 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" field "mentor" : Adding Meta-Data for field since it didnt appear in the Meta-Data definition.
+21:47:49,346 (main) DEBUG [DataNucleus.MetaData] - Initialising all MetaData ...
+21:47:49,352 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.ProgramOfDistinction" : Initialising Meta-Data
+21:47:49,353 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.SRCI" : Initialising Meta-Data
+21:47:49,353 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Roberts" : Initialising Meta-Data
+21:47:49,354 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Student" : Initialising Meta-Data
+21:47:49,354 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.MSGC" : Initialising Meta-Data
+21:47:49,354 (main) DEBUG [DataNucleus.MetaData] - Class "com.bstrawn.Honors" : Initialising Meta-Data
+21:47:49,354 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.ProgramOfDistinction" : Initialising Meta-Data
+21:47:49,354 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.SRCI" : Initialising Meta-Data
+21:47:49,355 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Roberts" : Initialising Meta-Data
+21:47:49,355 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Student" : Initialising Meta-Data
+21:47:49,355 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.MSGC" : Initialising Meta-Data
+21:47:49,355 (main) DEBUG [DataNucleus.MetaData] - Class "com.strawnplachta.Honors" : Initialising Meta-Data
+21:47:49,355 (main) DEBUG [DataNucleus.MetaData] - MetaData Management : Load of Metadata complete
+21:47:49,362 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.SRCI" starting ...
+21:47:49,379 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.SRCI" is already enhanced.
+21:47:49,379 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.SRCI" completed
+21:47:49,379 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Roberts" starting ...
+21:47:49,380 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.Roberts" is already enhanced.
+21:47:49,380 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Roberts" completed
+21:47:49,380 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Student" starting ...
+21:47:49,403 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.Student" is already enhanced.
+21:47:49,403 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Student" completed
+21:47:49,404 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.MSGC" starting ...
+21:47:49,405 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.MSGC" is already enhanced.
+21:47:49,405 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.MSGC" completed
+21:47:49,405 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Honors" starting ...
+21:47:49,405 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt implement the interface "javax.jdo.spi.PersistenceCapable" but is required
+21:47:49,406 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have field "jdoInheritedFieldCount" but is required
+21:47:49,406 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have field "jdoFieldNames" but is required
+21:47:49,406 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have field "jdoPersistenceCapableSuperclass" but is required
+21:47:49,406 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have field "jdoFieldTypes" but is required
+21:47:49,406 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have field "jdoFieldFlags" but is required
+21:47:49,406 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoProvideField" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoNewInstance" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoNewInstance" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "__jdoGetInheritedFieldCount" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoReplaceField" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoCopyField" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoCopyFields" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoGetManagedFieldCount" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoIsDetached" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "__jdoPersistenceCapableSuperclassInit" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "__jdoFieldFlagsInit" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "jdoSuperClone" but is required
+21:47:49,407 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "___jdo$loadClass" but is required
+21:47:49,408 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "__jdoFieldNamesInit" but is required
+21:47:49,408 (main) DEBUG [DataNucleus.Enhancer] - Class "com.bstrawn.Honors" doesnt have method "__jdoFieldTypesInit" but is required
+21:47:49,422 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: javax.jdo.spi.PersistenceCapable
+21:47:49,429 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.<init> : omitting enhance of set of field "com.bstrawn.Honors.dateJoined"
+21:47:49,429 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.<init> : omitting enhance of set of field "com.bstrawn.Honors.researchTopic"
+21:47:49,429 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.<init> : omitting enhance of set of field "com.bstrawn.Honors.thesisCompleted"
+21:47:49,429 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.<init> : omitting enhance of set of field "com.bstrawn.Honors.classCompleted"
+21:47:49,430 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.<init> : omitting enhance of set of field "com.bstrawn.Honors.thesisPresentationDate"
+21:47:49,430 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.<init> : omitting enhance of set of field "com.bstrawn.Honors.mentor"
+21:47:49,430 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.setDateJoined changing field "com.bstrawn.Honors.dateJoined" for call to "jdoSetdateJoined()"
+21:47:49,430 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.getDateJoined changing field "com.bstrawn.Honors.dateJoined" for call to "jdoGetdateJoined()"
+21:47:49,431 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.setResearchTopic changing field "com.bstrawn.Honors.researchTopic" for call to "jdoSetresearchTopic()"
+21:47:49,431 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.getResearchTopic changing field "com.bstrawn.Honors.researchTopic" for call to "jdoGetresearchTopic()"
+21:47:49,431 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.setThesisCompleted changing field "com.bstrawn.Honors.thesisCompleted" for call to "jdoSetthesisCompleted()"
+21:47:49,431 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.getThesisCompleted changing field "com.bstrawn.Honors.thesisCompleted" for call to "jdoGetthesisCompleted()"
+21:47:49,431 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.setClassCompleted changing field "com.bstrawn.Honors.classCompleted" for call to "jdoSetclassCompleted()"
+21:47:49,431 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.getClassCompleted changing field "com.bstrawn.Honors.classCompleted" for call to "jdoGetclassCompleted()"
+21:47:49,432 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.setThesisPresentationDate changing field "com.bstrawn.Honors.thesisPresentationDate" for call to "jdoSetthesisPresentationDate()"
+21:47:49,432 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.getThesisPresentationDate changing field "com.bstrawn.Honors.thesisPresentationDate" for call to "jdoGetthesisPresentationDate()"
+21:47:49,432 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.setMentor changing field "com.bstrawn.Honors.mentor" for call to "jdoSetmentor()"
+21:47:49,432 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.bstrawn.Honors.getMentor changing field "com.bstrawn.Honors.mentor" for call to "jdoGetmentor()"
+21:47:49,433 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B jdoFieldFlags"
+21:47:49,433 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class jdoPersistenceCapableSuperclass"
+21:47:49,433 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; jdoFieldTypes"
+21:47:49,433 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; jdoFieldNames"
+21:47:49,433 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int jdoInheritedFieldCount"
+21:47:49,435 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+21:47:49,437 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "com.bstrawn.Honors()"
+21:47:49,437 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDetached()"
+21:47:49,437 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+21:47:49,438 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+21:47:49,439 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceField(int index)"
+21:47:49,440 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideField(int index)"
+21:47:49,440 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyField(class com.bstrawn.Honors obj, int index)"
+21:47:49,441 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+21:47:49,441 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __jdoFieldNamesInit()"
+21:47:49,441 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __jdoFieldTypesInit()"
+21:47:49,441 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __jdoFieldFlagsInit()"
+21:47:49,442 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __jdoGetInheritedFieldCount()"
+21:47:49,442 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetManagedFieldCount()"
+21:47:49,442 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+21:47:49,443 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+21:47:49,443 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoSuperClone()"
+21:47:49,445 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoGetclassCompleted(class com.bstrawn.Honors objPC)"
+21:47:49,445 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetclassCompleted(class com.bstrawn.Honors objPC, boolean val)"
+21:47:49,445 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetdateJoined(class com.bstrawn.Honors objPC)"
+21:47:49,446 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetdateJoined(class com.bstrawn.Honors objPC, class java.lang.String val)"
+21:47:49,446 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetmentor(class com.bstrawn.Honors objPC)"
+21:47:49,446 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetmentor(class com.bstrawn.Honors objPC, class java.lang.String val)"
+21:47:49,446 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetresearchTopic(class com.bstrawn.Honors objPC)"
+21:47:49,446 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetresearchTopic(class com.bstrawn.Honors objPC, class java.lang.String val)"
+21:47:49,447 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoGetthesisCompleted(class com.bstrawn.Honors objPC)"
+21:47:49,447 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetthesisCompleted(class com.bstrawn.Honors objPC, boolean val)"
+21:47:49,447 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetthesisPresentationDate(class com.bstrawn.Honors objPC)"
+21:47:49,447 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetthesisPresentationDate(class com.bstrawn.Honors objPC, class java.lang.String val)"
+21:47:49,448 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/bstrawn/Documents/datanucleus/421/target/classes/com/bstrawn/Honors.class" with enhanced definition
+21:47:49,449 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.Honors" completed
+21:47:49,449 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.ProgramOfDistinction" starting ...
+21:47:49,450 (main) INFO  [DataNucleus.Enhancer] - Class "com.bstrawn.ProgramOfDistinction" is already enhanced.
+21:47:49,450 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.bstrawn.ProgramOfDistinction" completed
+21:47:49,451 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.SRCI" starting ...
+21:47:49,451 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.SRCI" is already enhanced.
+21:47:49,452 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.SRCI" completed
+21:47:49,452 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Roberts" starting ...
+21:47:49,452 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt implement the interface "javax.jdo.spi.PersistenceCapable" but is required
+21:47:49,452 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have field "jdoInheritedFieldCount" but is required
+21:47:49,452 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have field "jdoFieldNames" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have field "jdoPersistenceCapableSuperclass" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have field "jdoFieldTypes" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have field "jdoFieldFlags" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoProvideField" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoNewInstance" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoNewInstance" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "__jdoGetInheritedFieldCount" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoReplaceField" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoCopyField" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoCopyFields" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoGetManagedFieldCount" but is required
+21:47:49,453 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoIsDetached" but is required
+21:47:49,454 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "__jdoPersistenceCapableSuperclassInit" but is required
+21:47:49,454 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "__jdoFieldFlagsInit" but is required
+21:47:49,454 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "jdoSuperClone" but is required
+21:47:49,454 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "___jdo$loadClass" but is required
+21:47:49,454 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "__jdoFieldNamesInit" but is required
+21:47:49,454 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Roberts" doesnt have method "__jdoFieldTypesInit" but is required
+21:47:49,454 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: javax.jdo.spi.PersistenceCapable
+21:47:49,455 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.<init> : omitting enhance of set of field "com.strawnplachta.Roberts.dateJoined"
+21:47:49,455 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.<init> : omitting enhance of set of field "com.strawnplachta.Roberts.serviceProjectDescription"
+21:47:49,455 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.<init> : omitting enhance of set of field "com.strawnplachta.Roberts.serviceProjectCompleted"
+21:47:49,455 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.<init> : omitting enhance of set of field "com.strawnplachta.Roberts.tripDestination"
+21:47:49,455 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.setDateJoined changing field "com.strawnplachta.Roberts.dateJoined" for call to "jdoSetdateJoined()"
+21:47:49,455 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.getDateJoined changing field "com.strawnplachta.Roberts.dateJoined" for call to "jdoGetdateJoined()"
+21:47:49,455 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.setServiceProjectDescription changing field "com.strawnplachta.Roberts.serviceProjectDescription" for call to "jdoSetserviceProjectDescription()"
+21:47:49,456 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.getServiceProjectDescription changing field "com.strawnplachta.Roberts.serviceProjectDescription" for call to "jdoGetserviceProjectDescription()"
+21:47:49,456 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.setServiceProjectCompleted changing field "com.strawnplachta.Roberts.serviceProjectCompleted" for call to "jdoSetserviceProjectCompleted()"
+21:47:49,456 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.getServiceProjectCompleted changing field "com.strawnplachta.Roberts.serviceProjectCompleted" for call to "jdoGetserviceProjectCompleted()"
+21:47:49,456 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.setTripDestination changing field "com.strawnplachta.Roberts.tripDestination" for call to "jdoSettripDestination()"
+21:47:49,456 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Roberts.getTripDestination changing field "com.strawnplachta.Roberts.tripDestination" for call to "jdoGettripDestination()"
+21:47:49,456 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B jdoFieldFlags"
+21:47:49,457 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class jdoPersistenceCapableSuperclass"
+21:47:49,457 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; jdoFieldTypes"
+21:47:49,457 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; jdoFieldNames"
+21:47:49,457 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int jdoInheritedFieldCount"
+21:47:49,457 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+21:47:49,457 (main) DEBUG [DataNucleus.Enhancer] - Adding constructor "com.strawnplachta.Roberts()"
+21:47:49,457 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDetached()"
+21:47:49,458 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+21:47:49,458 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+21:47:49,458 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceField(int index)"
+21:47:49,458 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideField(int index)"
+21:47:49,459 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyField(class com.strawnplachta.Roberts obj, int index)"
+21:47:49,459 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+21:47:49,459 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __jdoFieldNamesInit()"
+21:47:49,459 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __jdoFieldTypesInit()"
+21:47:49,459 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __jdoFieldFlagsInit()"
+21:47:49,459 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __jdoGetInheritedFieldCount()"
+21:47:49,460 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetManagedFieldCount()"
+21:47:49,460 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+21:47:49,460 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+21:47:49,460 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoSuperClone()"
+21:47:49,460 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetdateJoined(class com.strawnplachta.Roberts objPC)"
+21:47:49,461 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetdateJoined(class com.strawnplachta.Roberts objPC, class java.lang.String val)"
+21:47:49,461 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoGetserviceProjectCompleted(class com.strawnplachta.Roberts objPC)"
+21:47:49,461 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetserviceProjectCompleted(class com.strawnplachta.Roberts objPC, boolean val)"
+21:47:49,461 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetserviceProjectDescription(class com.strawnplachta.Roberts objPC)"
+21:47:49,462 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetserviceProjectDescription(class com.strawnplachta.Roberts objPC, class java.lang.String val)"
+21:47:49,462 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGettripDestination(class com.strawnplachta.Roberts objPC)"
+21:47:49,462 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSettripDestination(class com.strawnplachta.Roberts objPC, class java.lang.String val)"
+21:47:49,463 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/bstrawn/Documents/datanucleus/421/target/classes/com/strawnplachta/Roberts.class" with enhanced definition
+21:47:49,463 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Roberts" completed
+21:47:49,463 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Student" starting ...
+21:47:49,464 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt implement the interface "javax.jdo.spi.PersistenceCapable" but is required
+21:47:49,464 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have field "jdoInheritedFieldCount" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have field "jdoFieldNames" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have field "jdoPersistenceCapableSuperclass" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have field "jdoFieldTypes" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have field "jdoStateManager" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have field "jdoFieldFlags" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have field "jdoFlags" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "__jdoGetInheritedFieldCount" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoNewInstance" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoNewInstance" but is required
+21:47:49,465 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoIsDirty" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoReplaceField" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoReplaceFields" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoIsPersistent" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoIsNew" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoIsTransactional" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoProvideFields" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoCopyFields" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoCopyKeyFieldsToObjectId" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoGetManagedFieldCount" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+21:47:49,466 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoCopyKeyFieldsFromObjectId" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoReplaceStateManager" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoNewObjectIdInstance" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoNewObjectIdInstance" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoGetTransactionalObjectId" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoGetPersistenceManager" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoMakeDirty" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "__jdoFieldFlagsInit" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoSuperClone" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "__jdoFieldNamesInit" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoProvideField" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoPreSerialize" but is required
+21:47:49,467 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoCopyField" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoIsDeleted" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoReplaceFlags" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoGetObjectId" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoIsDetached" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "__jdoPersistenceCapableSuperclassInit" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "___jdo$loadClass" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "__jdoFieldTypesInit" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Class "com.strawnplachta.Student" doesnt have method "jdoGetVersion" but is required
+21:47:49,468 (main) DEBUG [DataNucleus.Enhancer] - Adding interface: javax.jdo.spi.PersistenceCapable
+21:47:49,469 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.firstName"
+21:47:49,469 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.lastName"
+21:47:49,469 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.studentID"
+21:47:49,469 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.address"
+21:47:49,469 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.zip"
+21:47:49,469 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.major"
+21:47:49,470 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.minor"
+21:47:49,470 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.email"
+21:47:49,470 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.gpa"
+21:47:49,470 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.completedCredits"
+21:47:49,470 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.sex"
+21:47:49,470 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.programs"
+21:47:49,470 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.firstName"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.lastName"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.studentID"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.address"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.zip"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.major"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.minor"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.email"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.gpa"
+21:47:49,471 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.completedCredits"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.sex"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.programs"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.firstName"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.lastName"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.studentID"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.address"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.zip"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.major"
+21:47:49,472 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.minor"
+21:47:49,473 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.email"
+21:47:49,473 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.gpa"
+21:47:49,473 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.completedCredits"
+21:47:49,473 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.sex"
+21:47:49,473 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.<init> : omitting enhance of set of field "com.strawnplachta.Student.programs"
+21:47:49,473 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setFirstName changing field "com.strawnplachta.Student.firstName" for call to "jdoSetfirstName()"
+21:47:49,473 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getFirstName changing field "com.strawnplachta.Student.firstName" for call to "jdoGetfirstName()"
+21:47:49,474 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setLastName changing field "com.strawnplachta.Student.lastName" for call to "jdoSetlastName()"
+21:47:49,474 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getLastName changing field "com.strawnplachta.Student.lastName" for call to "jdoGetlastName()"
+21:47:49,474 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setStudentID changing field "com.strawnplachta.Student.studentID" for call to "jdoSetstudentID()"
+21:47:49,474 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getStudentID changing field "com.strawnplachta.Student.studentID" for call to "jdoGetstudentID()"
+21:47:49,474 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setAddress changing field "com.strawnplachta.Student.address" for call to "jdoSetaddress()"
+21:47:49,474 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getAddress changing field "com.strawnplachta.Student.address" for call to "jdoGetaddress()"
+21:47:49,475 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setZip changing field "com.strawnplachta.Student.zip" for call to "jdoSetzip()"
+21:47:49,475 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getZip changing field "com.strawnplachta.Student.zip" for call to "jdoGetzip()"
+21:47:49,475 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setMajor changing field "com.strawnplachta.Student.major" for call to "jdoSetmajor()"
+21:47:49,475 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getMajor changing field "com.strawnplachta.Student.major" for call to "jdoGetmajor()"
+21:47:49,475 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setMinor changing field "com.strawnplachta.Student.minor" for call to "jdoSetminor()"
+21:47:49,475 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getMinor changing field "com.strawnplachta.Student.minor" for call to "jdoGetminor()"
+21:47:49,476 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setEmail changing field "com.strawnplachta.Student.email" for call to "jdoSetemail()"
+21:47:49,476 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getEmail changing field "com.strawnplachta.Student.email" for call to "jdoGetemail()"
+21:47:49,476 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setGpa changing field "com.strawnplachta.Student.gpa" for call to "jdoSetgpa()"
+21:47:49,476 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getGpa changing field "com.strawnplachta.Student.gpa" for call to "jdoGetgpa()"
+21:47:49,476 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setCompletedCredits changing field "com.strawnplachta.Student.completedCredits" for call to "jdoSetcompletedCredits()"
+21:47:49,477 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getCompletedCredits changing field "com.strawnplachta.Student.completedCredits" for call to "jdoGetcompletedCredits()"
+21:47:49,477 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.setSex changing field "com.strawnplachta.Student.sex" for call to "jdoSetsex()"
+21:47:49,477 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getSex changing field "com.strawnplachta.Student.sex" for call to "jdoGetsex()"
+21:47:49,477 (main) DEBUG [DataNucleus.Enhancer] - Enhancing original method com.strawnplachta.Student.getPrograms changing field "com.strawnplachta.Student.programs" for call to "jdoGetprograms()"
+21:47:49,477 (main) DEBUG [DataNucleus.Enhancer] - Adding field "javax.jdo.spi.StateManager jdoStateManager"
+21:47:49,477 (main) DEBUG [DataNucleus.Enhancer] - Adding field "byte jdoFlags"
+21:47:49,477 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[B jdoFieldFlags"
+21:47:49,478 (main) DEBUG [DataNucleus.Enhancer] - Adding field "java.lang.Class jdoPersistenceCapableSuperclass"
+21:47:49,478 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.Class; jdoFieldTypes"
+21:47:49,478 (main) DEBUG [DataNucleus.Enhancer] - Adding field "[Ljava.lang.String; jdoFieldNames"
+21:47:49,478 (main) DEBUG [DataNucleus.Enhancer] - Adding field "int jdoInheritedFieldCount"
+21:47:49,478 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void <clinit>()"
+21:47:49,479 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldConsumer fc, class java.lang.Object oid)"
+21:47:49,479 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsFromObjectId(class java.lang.Object oid)"
+21:47:49,479 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(class java.lang.Object oid)"
+21:47:49,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyKeyFieldsToObjectId(interface javax.jdo.spi.PersistenceCapable$ObjectIdFieldSupplier fs, class java.lang.Object oid)"
+21:47:49,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetObjectId()"
+21:47:49,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetVersion()"
+21:47:49,480 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoPreSerialize()"
+21:47:49,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.PersistenceManager jdoGetPersistenceManager()"
+21:47:49,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoGetTransactionalObjectId()"
+21:47:49,481 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDeleted()"
+21:47:49,482 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDirty()"
+21:47:49,482 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsNew()"
+21:47:49,482 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsPersistent()"
+21:47:49,482 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsTransactional()"
+21:47:49,483 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoMakeDirty(class java.lang.String fieldName)"
+21:47:49,483 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance()"
+21:47:49,484 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoNewObjectIdInstance(class java.lang.Object key)"
+21:47:49,484 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideFields(class [I indices)"
+21:47:49,484 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFields(class [I indices)"
+21:47:49,485 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceFlags()"
+21:47:49,485 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceStateManager(interface javax.jdo.spi.StateManager sm)"
+21:47:49,485 (main) DEBUG [DataNucleus.Enhancer] - Adding method "boolean jdoIsDetached()"
+21:47:49,486 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm)"
+21:47:49,486 (main) DEBUG [DataNucleus.Enhancer] - Adding method "javax.jdo.spi.PersistenceCapable jdoNewInstance(interface javax.jdo.spi.StateManager sm, class java.lang.Object obj)"
+21:47:49,487 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoReplaceField(int index)"
+21:47:49,487 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoProvideField(int index)"
+21:47:49,488 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyField(class com.strawnplachta.Student obj, int index)"
+21:47:49,488 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoCopyFields(class java.lang.Object obj, class [I indices)"
+21:47:49,488 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.String; __jdoFieldNamesInit()"
+21:47:49,489 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[Ljava.lang.Class; __jdoFieldTypesInit()"
+21:47:49,489 (main) DEBUG [DataNucleus.Enhancer] - Adding method "[B __jdoFieldFlagsInit()"
+21:47:49,489 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int __jdoGetInheritedFieldCount()"
+21:47:49,489 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetManagedFieldCount()"
+21:47:49,489 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class __jdoPersistenceCapableSuperclassInit()"
+21:47:49,490 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Class ___jdo$loadClass(class java.lang.String className)"
+21:47:49,490 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.Object jdoSuperClone()"
+21:47:49,490 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetaddress(class com.strawnplachta.Student objPC)"
+21:47:49,490 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetaddress(class com.strawnplachta.Student objPC, class java.lang.String val)"
+21:47:49,491 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetcompletedCredits(class com.strawnplachta.Student objPC)"
+21:47:49,491 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetcompletedCredits(class com.strawnplachta.Student objPC, int val)"
+21:47:49,491 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetemail(class com.strawnplachta.Student objPC)"
+21:47:49,491 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetemail(class com.strawnplachta.Student objPC, class java.lang.String val)"
+21:47:49,492 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetfirstName(class com.strawnplachta.Student objPC)"
+21:47:49,492 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetfirstName(class com.strawnplachta.Student objPC, class java.lang.String val)"
+21:47:49,492 (main) DEBUG [DataNucleus.Enhancer] - Adding method "float jdoGetgpa(class com.strawnplachta.Student objPC)"
+21:47:49,492 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetgpa(class com.strawnplachta.Student objPC, float val)"
+21:47:49,493 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetlastName(class com.strawnplachta.Student objPC)"
+21:47:49,493 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetlastName(class com.strawnplachta.Student objPC, class java.lang.String val)"
+21:47:49,493 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetmajor(class com.strawnplachta.Student objPC)"
+21:47:49,493 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetmajor(class com.strawnplachta.Student objPC, class java.lang.String val)"
+21:47:49,494 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetminor(class com.strawnplachta.Student objPC)"
+21:47:49,494 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetminor(class com.strawnplachta.Student objPC, class java.lang.String val)"
+21:47:49,496 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.util.Set jdoGetprograms(class com.strawnplachta.Student objPC)"
+21:47:49,496 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetprograms(class com.strawnplachta.Student objPC, interface java.util.Set val)"
+21:47:49,497 (main) DEBUG [DataNucleus.Enhancer] - Adding method "java.lang.String jdoGetsex(class com.strawnplachta.Student objPC)"
+21:47:49,497 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetsex(class com.strawnplachta.Student objPC, class java.lang.String val)"
+21:47:49,498 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetstudentID(class com.strawnplachta.Student objPC)"
+21:47:49,498 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetstudentID(class com.strawnplachta.Student objPC, int val)"
+21:47:49,498 (main) DEBUG [DataNucleus.Enhancer] - Adding method "int jdoGetzip(class com.strawnplachta.Student objPC)"
+21:47:49,499 (main) DEBUG [DataNucleus.Enhancer] - Adding method "void jdoSetzip(class com.strawnplachta.Student objPC, int val)"
+21:47:49,500 (main) INFO  [DataNucleus.Enhancer] - Writing class file "/home/bstrawn/Documents/datanucleus/421/target/classes/com/strawnplachta/Student.class" with enhanced definition
+21:47:49,501 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Student" completed
+21:47:49,501 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.MSGC" starting ...
+21:47:49,502 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.MSGC" is already enhanced.
+21:47:49,502 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.MSGC" completed
+21:47:49,503 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Honors" starting ...
+21:47:49,503 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.Honors" is already enhanced.
+21:47:49,504 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.Honors" completed
+21:47:49,504 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.ProgramOfDistinction" starting ...
+21:47:49,505 (main) INFO  [DataNucleus.Enhancer] - Class "com.strawnplachta.ProgramOfDistinction" is already enhanced.
+21:47:49,505 (main) DEBUG [DataNucleus.Enhancer] - Enhance of class "com.strawnplachta.ProgramOfDistinction" completed
+21:47:49,506 (main) INFO  [DataNucleus.Enhancer] - DataNucleus Enhancer completed with success for 12 classes. Timings : input=366 ms, enhance=149 ms, total=515 ms. Consult the log for full details

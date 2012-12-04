@@ -91,7 +91,7 @@ public class Model {
         this.programBools[3] = false;	// roberts
         
         List<Student> studentsList;
-        List<Student> studentsList2;
+        List<Student> studentsList2 = new ArrayList<Student>();
         String query = " WHERE ";
         Map.Entry<String, String> firstParam = parameters.entrySet().iterator().next();
         query = this.addToQuery(true, query, firstParam);
