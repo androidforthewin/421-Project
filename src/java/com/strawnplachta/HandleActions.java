@@ -317,7 +317,9 @@ public class HandleActions
 		
 	}
 
-	public void searchStudents(String fname, String lname, String id)
+	public void searchStudents(String fname, String lname, String id, String address. String state,
+							   String zip, int creditsCompleted, boolean roberts, boolean honors,
+							   boolean srci)
 	{
 		HashMap<String, String> parameters = new HashMap<String, String>();
 		if(!fname.equals(""))
