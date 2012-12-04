@@ -18,6 +18,7 @@ public class Roberts extends ProgramOfDistinction {
 		this.tripDestination = tripDestination;
 	}
 
+
 	public void setDateJoined (String dateJoined) {
 		this.dateJoined = dateJoined;
 	}
